@@ -96,8 +96,8 @@ img[alt="Electric poles"]{
  img[alt="profile picture"] {
     margin-top: 50px;
     border-radius: 50%; /* Use 50% for a perfect circle */
-    width: 25vh;        /* Make width equal to height */
-    height: 25vh;       /* Keep equal height */
+    width: 50vh;        /* Make width equal to height */
+    height:50vh;       /* Keep equal height */
  }
  img[alt="Hello"]{
     height: 10vh;
