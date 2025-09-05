@@ -93,10 +93,12 @@ img[alt="Electric poles"]{
     justify-content: center;
     align-items: center;
 }
- img[alt="profile picture"]{
+ img[alt="profile picture"] {
     margin-top: 50px;
-    border-radius: 80%;
-    height:25vh;
+    border-radius: 50%; /* Use 50% for a perfect circle */
+    width: 25vh;        /* Make width equal to height */
+    height: 25vh;       /* Keep equal height */
+    object-fit: cover;
  }
  img[alt="Hello"]{
     height: 10vh;
