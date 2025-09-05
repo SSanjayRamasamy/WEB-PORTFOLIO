@@ -98,7 +98,6 @@ img[alt="Electric poles"]{
     border-radius: 50%; /* Use 50% for a perfect circle */
     width: 25vh;        /* Make width equal to height */
     height: 25vh;       /* Keep equal height */
-    object-fit: cover;
  }
  img[alt="Hello"]{
     height: 10vh;
