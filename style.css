@@ -107,7 +107,7 @@ img[alt="Electric poles"]{
 .profile-pic img {
     width: 100%;
     height: 100%;
-    object-fit: contain;      /* show the full image */
+    object-fit: fit;      /* show the full image */
 }
  img[alt="Hello"]{
     height: 10vh;
