@@ -94,14 +94,9 @@ img[alt="Electric poles"]{
     align-items: center;
 }
  .profile-pic {
-    width: 30vh;              /* increase circle size */
-    height: 30vh;             /* same as width */
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;        /* background behind transparent areas */
+    width: 25vh;              /* increase circle size */
+    height: 25vh;             /* same as width */
+    border-radius: 50%;      /* background behind transparent areas */
 }
 
 .profile-pic img {
