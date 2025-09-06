@@ -86,17 +86,13 @@ img[alt="Electric poles"]{
         font-size:6vw;
     }
  }
-.profile-flex{
-    display: flex;
-    gap: 5px;;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
- .profile-pic {
-    width: 25vh;              /* increase circle size */
-    height: 25vh;             /* same as width */
-    border-radius: 50%;      /* background behind transparent areas */
+img[alt="profile picture"] {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    object-fit: fill;
+    /*border: 5px solid #0C5097;  circular frame */
+    display: block;
 }
 
 .profile-pic img {
